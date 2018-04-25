@@ -1,5 +1,10 @@
 package jpu2016.dogfight.modele;
 
-public class Direction {
+public enum Direction {
 
+	UP, 
+	RIGHT, 
+	DOWN, 
+	LEFT
+	
 }

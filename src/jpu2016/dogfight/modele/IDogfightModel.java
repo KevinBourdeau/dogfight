@@ -1,5 +1,5 @@
 package jpu2016.dogfight.modele;
 
-public class IDogfightModel {
+public interface IDogfightModel {
 
 }
