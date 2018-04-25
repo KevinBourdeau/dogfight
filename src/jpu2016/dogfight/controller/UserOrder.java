@@ -1,6 +1,6 @@
 package jpu2016.dogfight.controller;
 
-public class UseOrder implements IUserOrder {
+public class UserOrder implements IUserOrder {
 	private int player;
 
 	public int getPlayer() {
@@ -11,7 +11,7 @@ public class UseOrder implements IUserOrder {
 		return getOrder();
 	}
 
-	public UseOrder(int player, Order order){
+	public UserOrder(int player, Order order){
 		this.player = player;
 	}
 	

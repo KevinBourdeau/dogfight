@@ -24,7 +24,7 @@ public abstract class DogfightController implements IOrderPerformer {
 		
 
 	@Override
-	public void orderPerform(userOrder UserOrder) {
+	public void orderPerform(UserOrder userOrder) {
 		
 		
 	}
