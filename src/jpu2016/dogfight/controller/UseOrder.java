@@ -11,9 +11,12 @@ public class UseOrder implements IUserOrder {
 		return getOrder();
 	}
 
-	public UseOrder(int player, Order Order){
+	public UseOrder(int player, Order order){
 		this.player = player;
 	}
+	
+	
+	
 	public static void main(String[] args) {
 		
 
