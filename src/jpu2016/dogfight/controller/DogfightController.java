@@ -1,4 +1,5 @@
 package jpu2016.dogfight.controller;
+import jpu2016.dogfight.modele.IDogfightModel;
 
 public abstract class DogfightController implements IOrderPerformer {
 
@@ -9,7 +10,7 @@ public abstract class DogfightController implements IOrderPerformer {
 		}
 
 
-////fggdfddv
+
 		public static void setTIMESLEEP(int tIMESLEEP) {
 			TIMESLEEP = tIMESLEEP;
 		}
@@ -29,15 +30,12 @@ public abstract class DogfightController implements IOrderPerformer {
 		
 	}
 	
-	private void lauchMissile(int player){
-		
-	}
+	private void lauchMissile(int player){}
 	
-	private void gameLoop(){
-		
-	}
+	
+	private void gameLoop(){}
 
-	public DogfightController(IDofightModel dogfightModel){
+	public DogfightController(IDogfightModel dogfightModel){
 		
 	}
 	
